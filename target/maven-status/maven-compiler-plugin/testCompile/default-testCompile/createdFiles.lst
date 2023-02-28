@@ -1,0 +1,10 @@
+com\qa\tests\DocumentPageTest.class
+com\qa\tests\CompaniesPageTest.class
+com\qa\tests\CalendarPageTest.class
+com\qa\tests\SignupTest.class
+com\qa\tests\LogoutPageTest.class
+com\qa\tests\ForgotPasswordPageTest.class
+com\qa\tests\LoginPageTest.class
+com\qa\tests\TestNGGroups.class
+com\qa\tests\TaskPageTest.class
+com\qa\tests\ContactPageTest.class

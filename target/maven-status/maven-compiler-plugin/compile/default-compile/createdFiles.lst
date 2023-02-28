@@ -1,0 +1,15 @@
+com\cogmento\qa\pageObject\SignupPage.class
+com\cogmento\qa\pageObject\ContactsPage.class
+com\cogmento\qa\pageObject\TasksPage.class
+com\cogmento\qa\pageObject\LoginPage.class
+com\cogmento\qa\pageObject\DashBoardPage.class
+com\qa\cogmento\listener\ExtentReportDemo.class
+com\qa\util\CommonFunctions.class
+com\cogmento\qa\pageObject\DocumentsPage.class
+com\qa\util\PropertiesOperations.class
+com\qa\cogmento\listener\Listeners.class
+com\cogmento\qa\pageObject\DeleteEntryPage.class
+com\cogmento\qa\pageObject\CompaniesPage.class
+com\qa\cogmento\listener\ExtentReportListener.class
+com\qa\baseClass\BaseClass.class
+com\cogmento\qa\pageObject\CalendarPage.class

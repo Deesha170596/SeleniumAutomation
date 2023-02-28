@@ -1,0 +1,4 @@
+2022-11-02 12:15:52,076  INFO [main] LoginPageTest:47 - Loging into the page
+2022-11-02 12:16:07,717  INFO [main] LoginPageTest:49 - Login was successful
+2022-11-02 12:16:13,356  INFO [main] ForgotPasswordPageTest:23 - Entering forgot password page
+2022-11-02 12:16:16,056  INFO [main] ForgotPasswordPageTest:26 - FogotPassword page executed successfully

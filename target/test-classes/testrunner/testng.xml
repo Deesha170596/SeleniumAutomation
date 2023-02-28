@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CogmentoSuite">
+<listeners>
+<listener class-name="com.qa.cogmento.listener.ExtentReportListener"/>
+</listeners>
+	<test  name="CogmentoLoginPage">
+		<classes>
+			<class name="com.qa.tests.LoginPageTest">
+				<methods>
+					<include name="loginPageTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	 	<test name="CogmentoLForgotPasswordPage">
+		<classes>
+			<class name="com.qa.tests.ForgotPasswordPageTest">
+				<methods>
+					<include name="forgetPasswordTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="CogmentoCalendarPage">
+		<classes>
+			<class name="com.qa.tests.CalendarPageTest">
+				<methods>
+					<include name="calendarPageTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="CogmentoCompaniesPage">
+		<classes>
+			<class name="com.qa.tests.CompaniesPageTest">
+				<methods>
+					<include name="companyPageTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+		<test name="CogmentoContactsPage">
+		<classes>
+			<class name="com.qa.tests.ContactPageTest">
+				<methods>
+					<include name="contactPageTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="CogmentoDocumentsPage">
+		<classes>
+			<class name="com.qa.tests.DocumentPageTest">
+				<methods>
+					<include name="documentPageTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="CogmentoTasksPage">
+		<classes>
+			<class name="com.qa.tests.TaskPageTest">
+				<methods>
+					<include name="taskPageTest" />
+				</methods>
+			</class>
+		</classes>
+	</test> 
+	</suite>

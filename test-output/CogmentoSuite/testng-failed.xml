@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="6" parallel="tests" name="Failed suite [CogmentoSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.cogmento.listener.Listeners"/>
+  </listeners>
+  <test thread-count="6" parallel="tests" name="CogmentoCalendarPage(failed)">
+    <classes>
+      <class name="com.qa.tests.CalendarPageTest">
+        <methods>
+          <include name="setExtent"/>
+          <include name="calendarPageTest" invocation-numbers="0"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.qa.tests.CalendarPageTest -->
+    </classes>
+  </test> <!-- CogmentoCalendarPage(failed) -->
+  <test thread-count="6" parallel="tests" name="CogmentoLForgotPasswordPage(failed)">
+    <classes>
+      <class name="com.qa.tests.ForgotPasswordPageTest">
+        <methods>
+          <include name="forgetPasswordTest"/>
+          <include name="TearDown"/>
+          <include name="setExtent"/>
+        </methods>
+      </class> <!-- com.qa.tests.ForgotPasswordPageTest -->
+    </classes>
+  </test> <!-- CogmentoLForgotPasswordPage(failed) -->
+  <test thread-count="6" parallel="tests" name="CogmentoContactsPage(failed)">
+    <classes>
+      <class name="com.qa.tests.ContactPageTest">
+        <methods>
+          <include name="setExtent"/>
+          <include name="contactPageTest" invocation-numbers="0"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.qa.tests.ContactPageTest -->
+    </classes>
+  </test> <!-- CogmentoContactsPage(failed) -->
+  <test thread-count="6" parallel="tests" name="CogmentoLoginPage(failed)">
+    <classes>
+      <class name="com.qa.tests.LoginPageTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="loginPageTest" invocation-numbers="0"/>
+          <include name="setExtent"/>
+        </methods>
+      </class> <!-- com.qa.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- CogmentoLoginPage(failed) -->
+  <test thread-count="6" parallel="tests" name="CogmentoDocumentsPage(failed)">
+    <classes>
+      <class name="com.qa.tests.DocumentPageTest">
+        <methods>
+          <include name="documentPageTest"/>
+          <include name="TearDown"/>
+          <include name="setExtent"/>
+        </methods>
+      </class> <!-- com.qa.tests.DocumentPageTest -->
+    </classes>
+  </test> <!-- CogmentoDocumentsPage(failed) -->
+  <test thread-count="6" parallel="tests" name="CogmentoCompaniesPage(failed)">
+    <classes>
+      <class name="com.qa.tests.CompaniesPageTest">
+        <methods>
+          <include name="setExtent"/>
+          <include name="companyPageTest"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.qa.tests.CompaniesPageTest -->
+    </classes>
+  </test> <!-- CogmentoCompaniesPage(failed) -->
+  <test thread-count="6" parallel="tests" name="CogmentoTasksPage(failed)">
+    <classes>
+      <class name="com.qa.tests.TaskPageTest">
+        <methods>
+          <include name="taskPageTest" invocation-numbers="0"/>
+          <include name="setExtent"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.qa.tests.TaskPageTest -->
+    </classes>
+  </test> <!-- CogmentoTasksPage(failed) -->
+</suite> <!-- Failed suite [CogmentoSuite] -->
